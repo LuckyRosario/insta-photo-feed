@@ -1,0 +1,32 @@
+body {
+    background: gray;
+}
+header {
+    background: white;
+}
+div {
+    box-sizing: border-box;
+}
+div.post {
+    background: white;
+}
+div.container {
+    width: 600px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+div.post h2, div.post p {
+    padding: 10px;
+}
+.container .post .postheader h2 {
+    display: inline-block;
+    background: green;
+    width: 80%;
+}
+.container .post .postheader p {
+    display: inline-block;
+    background: green;
+    width: 20%;
+}
